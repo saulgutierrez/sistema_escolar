@@ -7,48 +7,48 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="index.html"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="index.php"
                                 aria-expanded="false"><i data-feather="home" class="feather-icon"></i><span
                                     class="hide-menu">Dashboard</span></a></li>
                         <li class="list-divider"></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link" href="ticket-list.html"
+                        <li class="sidebar-item"> <a class="sidebar-link" href="profile.php"
                                 aria-expanded="false"><i data-feather="user" class="feather-icon"></i><span
                                     class="hide-menu">Perfil
                                 </span></a>
                         </li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="app-chat.html"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="messages.php"
                                 aria-expanded="false"><i data-feather="message-square" class="feather-icon"></i><span
                                     class="hide-menu">Mensajes</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="app-calendar.html"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="calendar.php"
                                 aria-expanded="false"><i data-feather="calendar" class="feather-icon"></i><span
                                     class="hide-menu">Calendario</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="authentication-login1.html"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="logout.php"
                                 aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span
                                     class="hide-menu">Logout</span></a></li>
 
                         <li class="list-divider"></li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="authentication-login1.html"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="subjects.php"
                                     aria-expanded="false"><i data-feather="folder" class="feather-icon"></i><span
                                         class="hide-menu">Mis materias</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
                                 aria-expanded="false"><i data-feather="edit" class="feather-icon"></i><span
                                     class="hide-menu">Tareas </span></a>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="table-basic.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="pending-tasks.php" class="sidebar-link"><span
                                             class="hide-menu"> Pendientes
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="table-dark-basic.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="delivered-tasks.php" class="sidebar-link"><span
                                             class="hide-menu"> Entregadas
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="table-sizing.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="task-history.php" class="sidebar-link"><span
                                             class="hide-menu">
                                             Historial
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="table-layout-coloured.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="attached-files.php" class="sidebar-link"><span
                                             class="hide-menu">
                                             Archivos Adjuntos
                                         </span></a>
@@ -59,15 +59,15 @@
                                 aria-expanded="false"><i data-feather="bar-chart-2" class="feather-icon"></i><span
                                     class="hide-menu">Calificaciones </span></a>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="chart-morris.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="partial-grades.php" class="sidebar-link"><span
                                             class="hide-menu"> Parciales
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="chart-chart-js.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="final-grades.php" class="sidebar-link"><span
                                             class="hide-menu"> Finales
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="chart-knob.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="grades-by-subject.php" class="sidebar-link"><span
                                             class="hide-menu">
                                             Por materia
                                         </span></a>
@@ -78,14 +78,14 @@
                                 aria-expanded="false"><i data-feather="user-check" class="feather-icon"></i><span
                                     class="hide-menu">Asistencias </span></a>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="ui-buttons.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="assistance.php" class="sidebar-link"><span
                                             class="hide-menu"> Registro personal
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="ui-modals.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="assistance-percentage.php" class="sidebar-link"><span
                                             class="hide-menu"> Porcentaje de asistencias </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="ui-tab.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="justifications.php" class="sidebar-link"><span
                                             class="hide-menu"> Justificaciones </span></a></li>
                             </ul>
                         </li>
@@ -93,14 +93,14 @@
                                 aria-expanded="false"><i data-feather="search" class="feather-icon"></i><span
                                     class="hide-menu">Recursos </span></a>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="ui-buttons.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="files.php" class="sidebar-link"><span
                                             class="hide-menu"> Archivos
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="ui-modals.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="notes.php" class="sidebar-link"><span
                                             class="hide-menu"> Apuntes </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="ui-tab.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="guides.php" class="sidebar-link"><span
                                             class="hide-menu"> Guías del docente </span></a></li>
                             </ul>
                         </li>
@@ -108,14 +108,14 @@
                                 aria-expanded="false"><i data-feather="users" class="feather-icon"></i><span
                                     class="hide-menu">Mi Grupo </span></a>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="ui-buttons.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="classmates-list.php" class="sidebar-link"><span
                                             class="hide-menu"> Lista de compañeros
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="ui-modals.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="tutor-info.php" class="sidebar-link"><span
                                             class="hide-menu"> Información del tutor </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="ui-tab.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="group-schedule.php" class="sidebar-link"><span
                                             class="hide-menu"> Horario del grupo </span></a></li>
                             </ul>
                         </li>
@@ -123,11 +123,11 @@
                                 aria-expanded="false"><i data-feather="clock" class="feather-icon"></i><span
                                     class="hide-menu">Horario </span></a>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="ui-buttons.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="weekly-schedule.php" class="sidebar-link"><span
                                             class="hide-menu"> Vista semanal
                                         </span></a>
                                 </li>
-                                <li class="sidebar-item"><a href="ui-modals.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><a href="daily-schedule.php" class="sidebar-link"><span
                                             class="hide-menu"> Vista por día </span></a>
                                 </li>
                             </ul>
